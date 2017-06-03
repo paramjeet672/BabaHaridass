@@ -36,13 +36,22 @@ body{
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-
+@media screen and (max-width:1500px){
+  .name{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width:700px){
+  .name{
+    font-size: 36px;
+  }
+}
 </style>
 </head>
 <body onload="myFun()">
 <div class="loader" id="loader">
   
 </div>
-<h1 style="text-align: center;" id="message"><font face="lilly">Baba Hasridass Institute of Nursing Education</font></h1>
+<h1 style="text-align: center;" id="message" class="name"><font face="lilly">Baba Haridass Institute of Nursing Education</font></h1>
 </body>
 </html>
