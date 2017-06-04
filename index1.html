@@ -25,11 +25,29 @@ body{
 .top{
 	max-width: 100%;
 	background-color: white;
-	height: 80px;
+	height: auto;
 	margin-bottom: 0;
-	margin-top: 0;
-			
-
+	margin-top: -18px;
+  color: #ff751a;
+  padding-bottom: 15px;
+  overflow: hidden;
+}
+.headimg{
+  float: left;
+  margin-left: 25%;
+  padding-top: 5px;
+  margin-top: 30px;
+}
+.headname{
+  margin-top: 30px;
+  float: left;
+  margin-left: 30px;
+}
+.top h2{
+   font-weight: bold;
+}
+.top h5{
+  text-align: center;
 }
 .nav {
   overflow: hidden;
@@ -63,11 +81,85 @@ body{
   	margin-left: 15%;
   }
 }
+@media screen and (max-width: 1100px){
+  .headimg{
+    margin-left: 13%;
+  }
+ 
+}
+@media screen and (max-width: 900px){
+  .headimg{
+    margin-left: 8%;
+  }
+ 
+}
+@media screen and (max-width: 850px){
+  .headimg{
+    margin-left: 5%;
+  }
+  .headname h2{
+    font-size: 24px;
+  }
+  .headname h5{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 700px){
+  .headimg{
+    margin-left: 5%;
+  }
+  .headname h2{
+    font-size: 20px;
+  }
+  .headname h5{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 590px){
+  .headimg{
+    margin-left: 5%;
+  }
+  .headname h2{
+    font-size: 16px;
+  }
+  .headname h5{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 500px){
+  .headimg{
+    margin-left: 10px;
+  }
+  .headname{
+    margin-left: 15px;
+  }
+  .headname h2{
+    font-size: 14px;
+  }
+  .headname h5{
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 450px){
+  .headimg{
+    margin-left: 5px;
+  }
+  .headname{
+    margin-left: 5px;
+  }
+  .headname h2{
+    font-size: 13px;
+  }
+  .headname h5{
+    font-size: 8px;
+  }
+}
 @media screen and (max-width: 900px){
 	.nav a:first-child{
   	margin-left: 10%;
   }
 }
+
 @media screen and (max-width: 800px) {
   .nav a:not(:first-child) {display: none;}
   .nav a.icon {
@@ -242,6 +334,13 @@ body{
 </head>
 <body>
   <div class="top">
+  <div class="headimg">
+  <img src="sai.png">
+  </div>
+  <div class="headname">
+  <h2>Baba Haridass Institute of Nursing Education</h2>
+  <h5>Approved By: Indian Nursing Council (INC) & Delhi Nursing Council (DNC)</h5>
+  </div>
    </div>
   <div class="nav" id="nav">
   	<a href="#">Home</a>
