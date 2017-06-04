@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" conte
+   nt="width=device-width, initial-scale=1.0">
+     <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title>Welcome To Baba Haridass Institute Of Nursing Education</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+<script type="text/javascript">
+	function myFunction() {
+    var x = document.getElementById("nav");
+    if (x.className === "nav") {
+        x.className += " responsive";
+    } else {
+        x.className = "nav";
+    }
+}
+</script>
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script>
+        function initialize() {
+        var map_canvas = document.getElementById('map_canvas');
+        var map_options = {
+        center: new google.maps.LatLng(28.678766, 76.959604),
+        zoom: 8,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+                          }   
+        var map = new google.maps.Map(map_canvas, map_options)
+                              }
+        google.maps.event.addDomListener(window, 'load', initialize);
+        var marker = new google.maps.Marker({  
+      position: new google.maps.LatLng(28.678766, 76.959604),  
+      map: map  
+    });
+    </script>
+<style type="text/css">
+	.heading{
+		padding: 0 5px;
+		color: #ff751a;
+	}
+	.maincol{
+		color: #ff751a;
+	}
+	
+    .content1{
+    	margin-top: 120px;
+    }
+    #map_canvas {
+      width: 500px;
+      height: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+                  }
+    
+</style>
+</head>
+<body>
+  <div class="top">
+  <div class="headimg">
+  <img src="sai.png">
+  </div>
+  <div class="headname">
+  <h2>Baba Haridass Institute of Nursing Education</h2>
+  <h5>Approved By: Indian Nursing Council (INC) & Delhi Nursing Council (DNC)</h5>
+  </div>
+   </div>
+  <div class="nav" id="nav">
+  	<a href="index1.html">Home</a>
+  	<a href="#">About Us</a>
+  	<a href="#">Academics</a>
+  	<a href="#">Admission</a>
+  	<a href="#">Student Life</a>
+  	<a href="contact_us.html">Contact Us</a>
+  	<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  <div class="check whitebg">
+  <div class="heading">
+    <h3>Contact Us</h3><hr align="left" style="border-bottom: 1px solid #ff751a;width: 100%;">
+  </div>
+  <div class="content">
+  	<div class="col-sm-6 rborder center-align">
+  		<h4 class="maincol"><strong>Address:</strong></h4>
+  		<h5>Baba Haridass Institute of Nursing Education<br>Jharoda Kalan, New Delhi - 72</h5>
+
+  	</div>
+  
+  <div class="col-sm-6 rborder center-align">
+  	<h4 class="maincol"><strong>Landline Numbers:</strong></h4>
+  	<h5>0120 - 2689710 (Office)</h5>
+    <h5>0120 - 2689710 (Hostel)</h5>
+  		
+  	</h5>
+  </div>
+  <div class="col-sm-6 rborder center-align">
+  	<h4 class="maincol"><strong>Mobile Numbers:</strong></h4>
+  	<h5>+91 9818600862</h5>
+    <h5>+91 9999155774</h5>
+  </div>
+  <div class="col-sm-6 center-align">
+  	<h4 class="maincol"><strong>Email Us At:</strong></h4>
+  	<h5>bhine@hotmail.com</h5>
+  	<h5>admissions@hotmail.com</h5>
+
+  </div>
+  <div class="col-sm-12 center-align">
+      <h4 class="maincol"><strong>How To Get Here:</strong></h4>
+      <div id="map_canvas"></div>
+  </div>
+  </div>
+
+  </div>
+<div class="footer">
+	<div class="col-sm-6 center-align gap">
+		<h3><strong>Connect With Us</strong></h3><hr>
+		<i class="fa fa-facebook" style="font-size:24px;color: #3b5998;background-color: white;width:35px;height: 35px;border-radius: 8px;padding-top: 5px;margin-top: 30px;"></i>&nbsp;&nbsp;&nbsp;<h4><a href="https://www.facebook.com" style="text-decoration: none;color: white;">Facebook</a></h4>
+		<i class="fa fa-twitter" style="font-size:24px;color: #1dcaff;background-color: white;width:35px;height: 35px;border-radius: 8px;padding-top: 5px;margin-top: 7px;"></i>&nbsp;&nbsp;&nbsp;<h4 style="margin-left: -12px;"><a href="https://www.twitter.com" style="text-decoration: none;color: white;">Twitter</a></h4>
+</div>
+<div class="col-sm-6 gap">
+	<h3 style="text-align: center;"><strong>Insights</strong></h3><hr>
+	<span class="glyphicon glyphicon-chevron-right"> </span><a href="#" style="text-decoration: none;color: white;font-size: 16px;">&nbsp;&nbsp;Gallery</a><br>
+	<span class="glyphicon glyphicon-chevron-right"> </span><a href="#" style="text-decoration: none;color: white;font-size: 16px;">&nbsp;&nbsp;Campus Life</a><br>
+	<span class="glyphicon glyphicon-chevron-right"> </span><a href="#" style="text-decoration: none;color: white;font-size: 16px;">&nbsp;&nbsp;Sports and Culturals</a><br>
+	<span class="glyphicon glyphicon-chevron-right"> </span><a href="#" style="text-decoration: none;color: white;font-size: 16px;">&nbsp;&nbsp;Downloads</a><br>
+	<span class="glyphicon glyphicon-chevron-right"> </span><a href="#" style="text-decoration: none;color: white;font-size: 16px;">&nbsp;&nbsp;Academic Calendar</a><br>
+	<span class="glyphicon glyphicon-chevron-right"> </span><a href="#" style="text-decoration: none;color: white;font-size: 16px;">&nbsp;&nbsp;</a><br>
+	<span class="glyphicon glyphicon-chevron-right"> </span><a href="#" style="text-decoration: none;color: white;font-size: 16px;">&nbsp;&nbsp;</a><br>
+	<span class="glyphicon glyphicon-chevron-right"> </span><a href="#" style="text-decoration: none;color: white;font-size: 16px;">&nbsp;&nbsp;</a><br>
+	<span class="glyphicon glyphicon-chevron-right"> </span><a href="#" style="text-decoration: none;color: white;font-size: 16px;">&nbsp;&nbsp;</a><br>
+</div>
+</div>
+<div style="width: 100%;background-color: white;color: #ff751a;height: 50px;text-align: center;padding-top: 15px;">
+	<strong>2017 Copyright | Baba Haridass Institute of Nursing Education. All Rights Reserved.</strong>
+</div> 
+</body>
+</html>
