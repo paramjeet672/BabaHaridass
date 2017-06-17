@@ -6,6 +6,7 @@ body{
 }
 .whitebg{
 	background-color: white;
+  
 }
 .mainimg{
 	margin-left: 20%;
@@ -184,4 +185,9 @@ body{
 }
 .gap{
   padding-bottom: 5px;
+}
+.info{
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: justify;
 }
