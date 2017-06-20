@@ -142,6 +142,11 @@ body{
   .nav-gap{
     margin-left: 25%;
   }
+  @media screen and (max-width: 1100px ){
+    .nav-gap{
+      margin-left: 15%;
+    }
+  }
   .nav-content:hover{
     display: block;
     position: absolute;
